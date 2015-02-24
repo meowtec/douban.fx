@@ -1,0 +1,8 @@
+.song_title a, .song_title a:visited, .song_title a:link {
+  color: #9dd6c5;
+}
+
+.song_title a:hover {
+  color: #fff;
+  background: #9dd6c5;
+}
