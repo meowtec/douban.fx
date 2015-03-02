@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["http://douban.fm/?fx=*"],
-      "js": ["content/index.js"],
+      "js": ["content/index-fx.js"],
       "run_at": "document_start"
     },
     {
