@@ -18,5 +18,5 @@
       "css": ["content/mine.css"]
     }
   ],
-  "permissions": ["webRequest", "http://*.douban.com/*"]
+  "permissions": ["webRequest", "http://*.douban.com/*", "clipboardWrite"]
 }
