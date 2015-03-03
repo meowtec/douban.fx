@@ -5,3 +5,7 @@ var _ = {
     return div.children[0]
   }
 }
+
+Function.prototype.getInner = function () {
+  return this.toString().replace(/^function\s*\(\)\s*\{\s*\/\*\s*/, '').replace(/\s*\*\/\s*\}$/, '')
+}

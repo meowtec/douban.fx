@@ -11,7 +11,7 @@ var html = (function () {/*
    <input>
    <span class="fx-success fx-hide"></span>
  </span>
-   */}).toString().replace(/^function\s*\(\)\s*\{\s*\/\*\s*/, '').replace(/\s*\*\/\s*\}$/, '')
+   */}).getInner()
 
 var section = document.querySelector('#fm-section2')
 var node = _.node(html)
