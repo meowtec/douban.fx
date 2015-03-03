@@ -6,7 +6,7 @@ songs.forEach(function (song) {
   var play = playButton.children[0]
   play.href = 'http://douban.fm/?start=' + song.id + 'g' + song.getAttribute('data-ssid') + 'g'
 
-  song.insertBefore(playButton, song.querySelector('.dl-count'))
+  song.insertBefore(playButton, song.querySelector('.dl-btn'))
 
 })
 
