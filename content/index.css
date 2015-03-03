@@ -1,0 +1,35 @@
+.fx-link-copy {
+  padding: 10px 0;
+  float: right;
+  margin: 0 10px;
+  position: relative;
+}
+.fx-link-copy a {
+  color: #999 !important;
+  background: none !important;
+}
+.fx-link-copy a:active {
+  color: #9dd6c5 !important;
+}
+
+.fx-link-copy input {
+  opacity: 0;
+  position: absolute;
+
+}
+
+.fx-success {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  right: -25px;
+  top: 8px;
+  background-size: 100%;
+  transition: all ease 0.5s;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAA5UExURQAAAFS6mFW5mlS6mFW7mVW5mlW6mFq0llS7mVW6mVa8mVa8mVW6mFS7mVS6mVW7mVW7mVS7mVW7magfRRgAAAASdFJOUwBhIXDSMNQRo/NBUOOykcOAwTxCGvMAAACjSURBVDjLtZPLFoMgDER5iBCwts3/f6xR9BTUTFeyvXOSYZIY8+xz3wB5IX4j7pkJVIiJmTPgg3Cr8zAJn3WeSXjSuRXMY8ScnMpX++gDlfs/vDVo0zme3qBt5Vs8vcHN8RA7zuXSsioOPt+YmsKPnxOqCgoHv454V+z8LoHEzXvp4dRC0WBFUfZnRA0aBZhxVXh0JLJl8ApMIHb40PLnkftdALLBDakOBW+wAAAAAElFTkSuQmCC);
+}
+
+.fx-success.fx-hide {
+  opacity: 0;
+  visibility: hidden;
+}

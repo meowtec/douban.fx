@@ -8,6 +8,10 @@
   },
   "content_scripts": [
     {
+      "matches": ["http://douban.fm/*"],
+      "js": ["content/utils.js", "content/index.js"],
+      "css": ["content/index.css"]
+    },{
       "matches": ["http://douban.fm/?fx=*"],
       "js": ["content/index-fx.js"],
       "run_at": "document_start"
