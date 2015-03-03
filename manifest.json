@@ -11,7 +11,8 @@
       "matches": ["http://douban.fm/*"],
       "js": ["content/utils.js", "content/index.js"],
       "css": ["content/index.css"]
-    },{
+    },
+    {
       "matches": ["http://douban.fm/?fx=*"],
       "js": ["content/index-fx.js"],
       "run_at": "document_start"
@@ -20,6 +21,11 @@
       "matches": ["http://douban.fm/mine"],
       "js": ["content/mine.js"],
       "css": ["content/mine.css"]
+    },
+    {
+      "matches": ["http://music.douban.com/subject/*"],
+      "js": ["content/utils.js", "content/subject.js"],
+      "css": ["content/subject.css"]
     }
   ],
   "permissions": ["webRequest", "http://*.douban.com/*", "clipboardWrite"]
