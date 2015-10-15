@@ -35,4 +35,4 @@
 
   window.location = 'http://douban.fm/?start=' + songid + 'g' + ssid + 'g'
 
-}).call(this)
+})()
