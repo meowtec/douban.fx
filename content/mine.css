@@ -1,5 +1,12 @@
+.song_title a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
 .song_title a, .song_title a:visited, .song_title a:link {
-  color: #9dd6c5;
+  color: #096;
 }
 
 .song_title a:hover {
