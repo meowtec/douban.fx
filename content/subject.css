@@ -8,6 +8,17 @@
 
 .fx-play-button a {
   display: block;
+  height: 16px;
+}
+
+.fx-play-button a:link {
+  background: none;
+}
+
+
+.fx-play-button a:before {
+  content: '';
+  display: block;
   width: 0;
   height: 0;
   border-top: 5px solid transparent!important;
@@ -20,7 +31,7 @@
   left: -5px;
 }
 
-.fx-play-button a:hover {
+.fx-play-button:hover a:before {
   background: none;
   border-bottom-color: #9dd6c5;
   border-right-color: #9dd6c5;

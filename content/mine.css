@@ -1,15 +1,15 @@
-.song_title a {
+.song_title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
 }
 
-.song_title a, .song_title a:visited, .song_title a:link {
+.song_title a:link {
   color: #096;
 }
 
 .song_title a:hover {
   color: #fff;
-  background: #9dd6c5;
+  background: #096;
 }
